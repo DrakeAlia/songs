@@ -25,6 +25,7 @@ const mapStateToProps = (state) => {
 
 export default connect(mapStateToProps)(SongDetail);
 
+// =========================================================================================================================================
 // Coding Exercise 12: Connecting Components to Redux
 
 // const increment = () => ({ type: 'increment' });
@@ -58,7 +59,7 @@ export default connect(mapStateToProps)(SongDetail);
 // }));
 
 
-
+// =========================================================================================================================================
 // Solution:
 
 // const increment = () => ({ type: 'increment' });
@@ -80,8 +81,8 @@ export default connect(mapStateToProps)(SongDetail);
 // }
 
 // const WrappedCounter = ReactRedux.connect(mapToStateProps,{
-//  increment: increment,
-//  decrement: decrement
+//  increment,
+//  decrement
 // })(Counter);
 
 // // Only change code *before* me!
